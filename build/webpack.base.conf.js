@@ -26,6 +26,8 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       '@': resolve('src'),
+      axios:'axios',
+      // swiper:'swiper/dist/js/swiper.js'
     }
   },
   module: {

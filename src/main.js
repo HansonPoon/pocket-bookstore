@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import font from 'font-awesome/css/font-awesome.css'
+import axios from 'axios/dist/axios.js'
+
 
 Vue.config.productionTip = false
 
@@ -10,3 +13,5 @@ new Vue({
   router,
   render: h => h(App)
 })
+
+
